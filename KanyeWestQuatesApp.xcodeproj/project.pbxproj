@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC90D65028BBA35D007C34EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90D64F28BBA35D007C34EA /* AppDelegate.swift */; };
+		EC90D65228BBA35D007C34EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90D65128BBA35D007C34EA /* SceneDelegate.swift */; };
+		EC90D65428BBA35D007C34EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90D65328BBA35D007C34EA /* ViewController.swift */; };
+		EC90D65728BBA35D007C34EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90D65528BBA35D007C34EA /* Main.storyboard */; };
+		EC90D65928BBA35E007C34EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC90D65828BBA35E007C34EA /* Assets.xcassets */; };
+		EC90D65C28BBA35E007C34EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90D65A28BBA35E007C34EA /* LaunchScreen.storyboard */; };
+		EC90D66A28BBA67A007C34EA /* kanye.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EC90D66928BBA67A007C34EA /* kanye.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC90D64C28BBA35D007C34EA /* KanyeWestQuatesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanyeWestQuatesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC90D64F28BBA35D007C34EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC90D65128BBA35D007C34EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC90D65328BBA35D007C34EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC90D65628BBA35D007C34EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC90D65828BBA35E007C34EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC90D65B28BBA35E007C34EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC90D65D28BBA35E007C34EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90D66928BBA67A007C34EA /* kanye.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kanye.jpeg; path = "../../../../appler için materyeller/kanye.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC90D64928BBA35D007C34EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC90D64328BBA35D007C34EA = {
+			isa = PBXGroup;
+			children = (
+				EC90D64E28BBA35D007C34EA /* KanyeWestQuatesApp */,
+				EC90D64D28BBA35D007C34EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC90D64D28BBA35D007C34EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D64C28BBA35D007C34EA /* KanyeWestQuatesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC90D64E28BBA35D007C34EA /* KanyeWestQuatesApp */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D66628BBA3EB007C34EA /* View */,
+				EC90D66528BBA3E2007C34EA /* Controller */,
+				EC90D66428BBA3AF007C34EA /* Resources */,
+				EC90D66328BBA364007C34EA /* App */,
+			);
+			path = KanyeWestQuatesApp;
+			sourceTree = "<group>";
+		};
+		EC90D66328BBA364007C34EA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D65128BBA35D007C34EA /* SceneDelegate.swift */,
+				EC90D64F28BBA35D007C34EA /* AppDelegate.swift */,
+				EC90D66928BBA67A007C34EA /* kanye.jpeg */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC90D66428BBA3AF007C34EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D65828BBA35E007C34EA /* Assets.xcassets */,
+				EC90D65A28BBA35E007C34EA /* LaunchScreen.storyboard */,
+				EC90D65D28BBA35E007C34EA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC90D66528BBA3E2007C34EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D65328BBA35D007C34EA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC90D66628BBA3EB007C34EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC90D65528BBA35D007C34EA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC90D64B28BBA35D007C34EA /* KanyeWestQuatesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC90D66028BBA35E007C34EA /* Build configuration list for PBXNativeTarget "KanyeWestQuatesApp" */;
+			buildPhases = (
+				EC90D64828BBA35D007C34EA /* Sources */,
+				EC90D64928BBA35D007C34EA /* Frameworks */,
+				EC90D64A28BBA35D007C34EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanyeWestQuatesApp;
+			productName = KanyeWestQuatesApp;
+			productReference = EC90D64C28BBA35D007C34EA /* KanyeWestQuatesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC90D64428BBA35D007C34EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EC90D64B28BBA35D007C34EA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EC90D64728BBA35D007C34EA /* Build configuration list for PBXProject "KanyeWestQuatesApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC90D64328BBA35D007C34EA;
+			productRefGroup = EC90D64D28BBA35D007C34EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC90D64B28BBA35D007C34EA /* KanyeWestQuatesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC90D64A28BBA35D007C34EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90D65C28BBA35E007C34EA /* LaunchScreen.storyboard in Resources */,
+				EC90D66A28BBA67A007C34EA /* kanye.jpeg in Resources */,
+				EC90D65928BBA35E007C34EA /* Assets.xcassets in Resources */,
+				EC90D65728BBA35D007C34EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC90D64828BBA35D007C34EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90D65428BBA35D007C34EA /* ViewController.swift in Sources */,
+				EC90D65028BBA35D007C34EA /* AppDelegate.swift in Sources */,
+				EC90D65228BBA35D007C34EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC90D65528BBA35D007C34EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90D65628BBA35D007C34EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC90D65A28BBA35E007C34EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC90D65B28BBA35E007C34EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC90D65E28BBA35E007C34EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC90D65F28BBA35E007C34EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC90D66128BBA35E007C34EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KRQW7JR73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanyeWestQuatesApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.KanyeWestQuatesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC90D66228BBA35E007C34EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KRQW7JR73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KanyeWestQuatesApp/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enes.KanyeWestQuatesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC90D64728BBA35D007C34EA /* Build configuration list for PBXProject "KanyeWestQuatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90D65E28BBA35E007C34EA /* Debug */,
+				EC90D65F28BBA35E007C34EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC90D66028BBA35E007C34EA /* Build configuration list for PBXNativeTarget "KanyeWestQuatesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC90D66128BBA35E007C34EA /* Debug */,
+				EC90D66228BBA35E007C34EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC90D64428BBA35D007C34EA /* Project object */;
+}
